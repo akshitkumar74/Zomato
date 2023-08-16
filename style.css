@@ -1,0 +1,240 @@
+
+body{
+    font-family: Okra, Helvetica, sans-serif;
+}
+.navbar{
+    width: 1180px;
+    margin:-13px auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 0;
+    align-items: center;
+}
+.imglogo{
+    width: 140px;
+    margin: 12px;
+    height: 34px;
+    cursor: pointer;
+}
+.search{
+    width: 600px;
+    display: flex;
+    height: 50px;
+    border-radius: 8px;
+    border: 1px solid lightgray;
+}
+#furi{
+    text-align: center;
+}
+.btn{
+    background-color: rgb(255, 67, 67);
+    color:#fff ;
+    border: none;
+    width: 100px;
+    padding: 19px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.links{
+    display: flex;
+    gap:10px;
+    align-items: center;
+}
+.link{
+    text-decoration: none;
+    color: rgb(105, 105, 105);
+    width: 100px;
+    font-size: 20px;
+}
+.search-hit{
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    top: 30px;
+    left: 384px;
+    gap: 10%;
+}
+.task{
+    margin-left: 80px;
+    display: flex;
+}
+.circle{
+    background-color: lightgray;
+    border-radius: 34px;
+    display: flex;
+    gap: 10px;
+    width: 65px;
+    height: 65px;
+    margin-left: 134px;
+    margin-top: 50px;
+    cursor: pointer;
+}
+.imgst{
+    width:  37px;
+    margin: 17px;
+    cursor: pointer;
+}
+hr{
+    border: 1px solid rgb(234, 234, 234);
+}
+.btn3{
+    display: flex;
+    justify-content: center;
+    margin-right: 868px;
+    gap: 12px;
+    margin-top: 12px;
+    cursor: pointer;
+}
+.btno{
+    width: 83px;
+    height: 38px;
+    border-radius: 8px;
+    border: 1px solid lightgray;
+    color: #c0bfbf;
+    background-color: white;
+    cursor: pointer;
+}
+.btno:hover{
+    background-color:rgb(236, 236, 236);
+}
+#btn-00{
+    width: 100px;
+    height: 38px;
+    cursor: pointer;
+}
+#btn-00:hover{
+    background-color:rgb(231, 231, 231);
+}
+.firststart{
+    text-align: center;
+    display: flex;
+    border: 1px solid white;
+    background-color: rgb(240, 240, 240);
+    margin-top: 25px;
+    padding: 1px 77px;
+    cursor: pointer;
+}
+.imp{
+    display: flex;
+    margin-left: 161px;
+    cursor: pointer;
+}
+.card{
+    display: inline-block;
+}
+.imgfood{
+    width: 47%;
+    height: 47%;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+.secondone{
+    text-align: center;
+    display: flex;
+    align-items: baseline;
+    border: 1px solid white;
+    margin-top: 25px;
+    padding: 1px 77px;
+    cursor: pointer;
+}
+.board{
+    display: inline-block;
+}
+.foodlife{
+    width: 47%;
+    height: 47%;
+    border-radius: 50%;
+}
+.second{
+    display: flex;
+    margin-left: 161px;
+}
+.superbox{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 16px 150px;
+}
+.box{
+    width: 354px;
+    padding: 10px;
+    /* border: 1px solid lightgray; */
+    transition: 0.3s;
+    border-radius: 14px;
+    margin-bottom: 40px;
+    margin-left: -148px;
+}
+.box:hover{
+    background-color:rgb(213, 213, 213);
+    border:  none;
+}
+.firstfood{
+    width: 100%;
+    border-radius: 14px;
+}
+.Third{
+    display: flex;
+    margin-left: 161px;
+}
+.thirdpart{
+    display: flex;
+    margin-left: 161px;
+}
+.lineprline{
+    display: flex;
+    justify-content: space-between;
+}
+.tagline{
+    width: 194px;
+}
+.rating{
+    background-color: rgb(76, 188, 76);
+    color: #fff;
+    width: 43px;
+    height: 21px;
+    border-radius: 5px;
+    font-size: 14px;
+    text-align: center;
+}
+.downline{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -27px;
+    gap: 10%;
+}
+@media (min-width: 305px) and (max-width: 900px){
+    .btn3{
+        margin-right: -186px;
+    }
+    .imp{
+        width: 800px;
+    }
+    .search-hit{
+        margin-left: -164px;
+    }
+    .firststart{
+        width: 1021px;
+        display: inline-block;
+    }
+    .card{
+        display: inline-block;
+        margin-left: -24px;
+    }
+    .second{
+        width: 800px;
+    }
+    .secondone{
+        width: 1021px;
+        display: inline-block;
+    }
+    .board{
+        display: inline-block;
+        margin-left: -24px;
+    }
+    .Third{
+        width: 800px;
+    }
+    .box{
+        width: 800px;
+        height: 600px;
+    }
+}
